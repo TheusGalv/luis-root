@@ -1,0 +1,64 @@
+:root{
+    /* CSS HEX */
+--rich-black: #000216ff;
+--marian-blue: #1f459cff;
+--columbia-blue: #cdddeaff;
+--charcoal: #33444cff;
+--eminence: #793393ff;
+--chocolate-cosmos: #5b1d1eff;
+--maize: #ffea56ff;
+--pigment-green: #00ab4cff;
+--safety-orange: #f57f28ff;
+--black-bean: #350a04ff;
+}
+
+@font-face {
+    font-family: king;
+    src: url('/imagens/King.otf');
+}
+
+body{
+  background:radial-gradient(var(--chocolate-cosmos), var(--eminence));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--black-bean);
+}
+
+.central{
+  width: 40%;
+  background: var(--columbia-blue);
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 3px 3px 15px var(--marian-blue);
+}
+
+hr{
+    width: 100%;
+    height: 20px;
+    background-color: var(--black-bean);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+   font-family: 'king';
+   font-size: 55px;
+   font-weight: 100;
+   margin: 0; 
+}
